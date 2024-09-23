@@ -1,5 +1,5 @@
 import { View, Text, Image, StyleSheet, Pressable } from 'react-native'
-import { colors } from '../constants/colors'
+import { colors } from '../constants/Colors'
 import { Link } from 'expo-router'
 
 export default function Index(){
@@ -10,7 +10,7 @@ export default function Index(){
       />
 
       <Text style={styles.title}>
-        Dieta<Text style={{ color: colors.white }}>.AI</Text>
+        Plano<Text style={{ color: colors.white }}>.Alimentar</Text>
       </Text>
 
       <Text style={styles.text}>

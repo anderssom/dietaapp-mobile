@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Pressable, ScrollView, Share } from 'react-nati
 import { useDataStore } from '../../store/data'
 import { api } from '../../services/api'
 import { useQuery } from '@tanstack/react-query'
-import { colors } from '../../constants/colors'
+import { colors } from '../../constants/Colors'
 import { Data } from '../../types/data'
 import { Link, router } from 'expo-router'
 import { Ionicons, Feather } from '@expo/vector-icons'

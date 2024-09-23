@@ -1,6 +1,6 @@
 import { View, StyleSheet, Text, TextInput, KeyboardTypeOptions } from 'react-native';
 import { Controller } from 'react-hook-form'
-import { colors } from '../../constants/colors'
+import { colors } from '../../constants/Colors'
 
 interface InputProps{
   name: string;
